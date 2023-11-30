@@ -1,0 +1,24 @@
+.text-container{
+    background-color:aquamarine;
+    height: 125px;
+    width:125px;
+    display: flex;
+
+    align-items: center;
+    justify-content: center;
+    transition:all 180ms linear;
+    cursor: pointer;
+}
+.text-container:hover{
+    transform:scale(1.1,1.1);
+    background-color: rgb(62, 139, 114);
+}
+
+.green{
+    background-color:rgb(46, 149, 46);
+    color:black;
+}
+.red{
+    background-color:rgb(176, 50, 50);
+    color:black;
+}
